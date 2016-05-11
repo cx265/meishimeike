@@ -1,0 +1,58 @@
+.right_content .form table thead tr td{
+	height: 30px;
+	font-weight: bold;
+	text-align: center;
+	vertical-align: inherit;
+	width: 100px;
+}
+.right_content .form table tbody tr td{
+	height: 60px;
+	text-align: center;
+	vertical-align: inherit;
+	width: 100px;
+}
+.right_content .form table thead tr td.checkbox,.right_content .form table tbody tr td.checkbox{
+	width: 30px
+}
+.right_content .form table tbody img.face{
+	width: 50px;
+	height: 50px;
+}
+.right_content .form table tbody tr td span{
+	margin-right: 2px;
+	margin-left:  2px;
+}
+.right_content .form table thead tr td{
+	background-color: #ECF8FD;
+}
+.right_content .form table tr td.checkbox{
+	background-color: #fff;
+	padding-right: 10px;
+}
+.paging{
+	width: 550px;
+	height: 50px;
+	position: absolute;
+	margin-top: 450px;
+	margin-left: 50px;
+	font-size: 14px;
+}
+.paging span.num{
+	color: #E96351;
+}
+.paging span.nowpage{
+	color: red;
+}
+.paging form{
+	display: inline-block;
+}
+.sidebar_box strong{
+	margin-bottom: 5px;
+	display: inline-block;
+}
+a.red{
+	color: red;
+}
+tr.hover:hover td{
+	background-color: #d2e7f0;
+}

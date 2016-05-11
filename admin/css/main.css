@@ -1,0 +1,6 @@
+.NFMultiSelectTop,.NFMultiSelectRight,.NFMultiSelectLeft,.NFMultiSelectBottom,.NFMultiSelectBottomLeft,.NFMultiSelectTopLeft,.NFMultiSelectLeftH ,.NFMultiSelectRightH {
+	background:none;
+}
+.NFMultiSelect{
+	border:1px solid;
+}

@@ -1,0 +1,71 @@
+.left_content table{
+	font-weight: 600;
+	color: #fff;
+	font-family: sans-serif, Helvetica, Arial;
+	font-size:14px;
+}
+.left_content table tr.title{
+	background-color: #ccc;
+}
+.left_content table tr.user{
+	background-color: #9858B4;
+}
+.left_content table tr.sex{
+	background-color: #24AC60;
+}
+.left_content table tr.rank{
+	background-color: #F09C10;
+}
+.left_content table tr.time{
+	background-color: #E44C3C;
+}
+.left_content table tr.ip{
+	background-color: #3498D8;
+}
+.left_content table tr{
+	height: 30px;
+	text-align: center;
+}
+.right_content h1{
+	margin-top: -5px;
+	text-align: left;
+	font-size: 16px;
+}
+#rounded-corner tfoot tr td.rounded-foot-left{
+	background-color: #fff;
+	color: #000;
+	font-weight: 600;
+}
+#rounded-corner tfoot tr td.rounded-foot-right{
+	background-color: #ECF8FD;
+	color: #669;
+	text-indent: 2em;
+	line-height: 10px;
+}
+#rounded-corner tfoot tr td.rounded-foot-right_o{
+	line-height: 18px;
+	text-indent: 2em;
+}
+#rounded-corner tfoot tr td.rounded-foot-right_o p{
+	margin: 0;
+}
+#rounded-corner tfoot tr td.rounded-foot-right p{
+	line-height: 18px;
+	margin: 0;
+}
+#rounded-corner tbody tr td{
+	background-color: #fff;
+}
+#rounded-corner tbody a{
+	color: red;
+}
+.sidebar_box{
+	color: #000;
+}
+.sidebar_box a{
+	cursor: pointer;
+}
+.sidebar_box strong{
+	margin-bottom: 5px;
+	display: inline-block;
+}

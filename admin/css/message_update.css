@@ -1,0 +1,61 @@
+/*Text inputs*/
+.NFText {border:1px #2FACD8 solid; vertical-align:middle; font:12px/15px Arial, Helvetica, sans-serif; background:none; float:left;width: 200px;}
+.NFTextCenter {height:26px; width:auto;background:none; padding:8px 0 0 0; margin:0; float:left; line-height:27px;}
+.NFTextLeft, .NFTextRight {width:10px; height:34px; vertical-align:middle; float:left;}
+.NFTextLeft {background:none;}
+.NFTextRight {background:none;}
+/*Textareas*/
+.NFTextarea {border:1px #2FACD8 solid; background:none; font:12px/12px Arial, Helvetica, sans-serif; margin:0;}
+.NFTextareaTop, .NFTextareaBottom {height:10px; clear:both; float:none; padding-right:19px;}
+.NFTextareaTop {background:none;}
+.NFTextareaBottom {background:none; margin-bottom:-2px;}
+.NFTextareaTopLeft, .NFTextareaBottomLeft {width:10px; height:10px;}
+.NFTextareaTopLeft {background:none;}
+.NFTextareaBottomLeft {background:none;}
+.NFTextareaLeft, .NFTextareaRight, .NFTextareaLeftH, .NFTextareaRightH {float:left; padding-bottom:10px;}
+.NFTextareaLeft, .NFTextareaLeftH {width:10px;}
+.NFTextareaLeft {background:none;}
+.NFTextareaLeftH {background:none;}
+.NFTextareaRight, .NFTextareaRightH {padding-right:5px; padding-bottom:0;}
+.NFTextareaRight {background:none;}
+.NFTextareaRightH {background:none;}
+/*Selects*/
+.NFSelect {height:34px; position:absolute; border:1px solid transparent; }
+.NFSelectLeft {float:left; width:12px; height:34px; background:none; vertical-align:middle;}
+.NFSelectRight {height:34px; width:310px; background:none; cursor:pointer; font:12px/21px Arial, Helvetica, sans-serif; color:#000; padding-left:3px; margin-left:3px; line-height:34px;}
+.NFSelectTarget {position:absolute; background:none; margin-left:-13px; margin-top:0px; z-index:3; left:0; top:0; padding-bottom:13px;}
+.NFSelectOptions {position:relative; float:left; margin-left:16px; margin-top:26px; list-style:none; padding:0px; line-height:18px; color:#000; z-index:4; max-height:200px;  left:0; top:0;}
+.NFSelectOptions li {padding:3px 0px 3px 0; width:307px;background:#efefef;}
+.NFSelectOptions a {display:block; text-decoration:none; color:#000; padding:3px 0 3px 6px; background:none;}
+.NFSelectOptions a.NFOptionActive {background:#ecf8fd;}
+.NFSelectOptions a:hover {background:#ecf8fd;}
+/*Multiple Selects*/
+.NFMultiSelect {border:1px #2FACD8 solid; background:none; margin:0;}
+.NFMultiSelectTop, .NFMultiSelectBottom {height:5px; clear:both; float:none; padding-right:10px;}
+.NFMultiSelectTop {background:none;}
+.NFMultiSelectBottom {background:none; margin-bottom:5px;}
+.NFMultiSelectTopLeft, .NFMultiSelectBottomLeft {width:5px; height:5px;}
+.NFMultiSelectTopLeft {background: none;}
+.NFMultiSelectBottomLeft {background: none;}
+.NFMultiSelectLeft, .NFMultiSelectRight, .NFMultiSelectLeftH, .NFMultiSelectRightH {float:left; padding-bottom:5px;}
+.NFMultiSelectLeft, .NFMultiSelectLeftH {width:5px;}
+.NFMultiSelectLeft {background:none;}
+.NFMultiSelectLeftH {background:none;}
+.NFMultiSelectRight, .NFMultiSelectRightH {padding-right:5px; padding-bottom:0;}
+.NFMultiSelectRight {background:none;}
+.NFMultiSelectRightH {background:none;}
+
+/*Focused*/
+.NFText:focus,.NFSelect:focus,.NFTextarea:focus,.NFMultiSelect:focus {border:1px solid #F6A412;}
+img.face{
+	margin-left: 10px;
+}
+select#message_sort{
+	margin-left: 5px;
+}
+.right_content .form table tbody tr td{
+	text-align: right;
+}
+.right_content .form table tbody tr td.left{
+	text-align: left;
+}
